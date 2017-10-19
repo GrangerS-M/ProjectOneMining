@@ -108,15 +108,15 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &702511747
+--- !u!1 &818357060
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 702511749}
-  - component: {fileID: 702511748}
+  - component: {fileID: 818357061}
+  - component: {fileID: 818357062}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -124,24 +124,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &702511748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 702511747}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c5ffb1a761cf5746b14ba35000c7427, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CubePreFab: {fileID: 1989809489154202, guid: 11ce84c200178eb46827fe93ed3c7554, type: 2}
---- !u!4 &702511749
+--- !u!4 &818357061
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 702511747}
+  m_GameObject: {fileID: 818357060}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -149,18 +137,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1957642840
+--- !u!114 &818357062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 818357060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3b30218a69bc884f8358b3aba8c0fda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CubePreFab: {fileID: 1240887703352736, guid: 269e88ce080c3ee4288e17dde6fb2014, type: 2}
+--- !u!1 &1022140911
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 1957642845}
-  - component: {fileID: 1957642844}
-  - component: {fileID: 1957642843}
-  - component: {fileID: 1957642842}
-  - component: {fileID: 1957642841}
+  - component: {fileID: 1022140916}
+  - component: {fileID: 1022140915}
+  - component: {fileID: 1022140914}
+  - component: {fileID: 1022140913}
+  - component: {fileID: 1022140912}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -168,33 +168,33 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1957642841
+--- !u!81 &1022140912
 AudioListener:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1957642840}
+  m_GameObject: {fileID: 1022140911}
   m_Enabled: 1
---- !u!124 &1957642842
+--- !u!124 &1022140913
 Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1957642840}
+  m_GameObject: {fileID: 1022140911}
   m_Enabled: 1
---- !u!92 &1957642843
+--- !u!92 &1022140914
 Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1957642840}
+  m_GameObject: {fileID: 1022140911}
   m_Enabled: 1
---- !u!20 &1957642844
+--- !u!20 &1022140915
 Camera:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1957642840}
+  m_GameObject: {fileID: 1022140911}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -225,12 +225,12 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
---- !u!4 &1957642845
+--- !u!4 &1022140916
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1957642840}
+  m_GameObject: {fileID: 1022140911}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
